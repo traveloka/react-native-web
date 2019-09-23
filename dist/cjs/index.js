@@ -54,6 +54,10 @@ var _AppState = _interopRequireDefault(require("./exports/AppState"));
 
 exports.AppState = _AppState.default;
 
+var _AsyncStorage = _interopRequireDefault(require("./exports/AsyncStorage"));
+
+exports.AsyncStorage = _AsyncStorage.default;
+
 var _BackHandler = _interopRequireDefault(require("./exports/BackHandler"));
 
 exports.BackHandler = _BackHandler.default;

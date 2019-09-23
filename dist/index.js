@@ -12,6 +12,7 @@ import Alert from './exports/Alert';
 import Animated from './exports/Animated';
 import AppRegistry from './exports/AppRegistry';
 import AppState from './exports/AppState';
+import AsyncStorage from './exports/AsyncStorage';
 import BackHandler from './exports/BackHandler';
 import Clipboard from './exports/Clipboard';
 import DeviceInfo from './exports/DeviceInfo';
@@ -77,7 +78,7 @@ import DeviceEventEmitter from './exports/DeviceEventEmitter';
 export { // top-level API
 createElement, findNodeHandle, render, unmountComponentAtNode, // modules
 processColor, NativeModules, TextPropTypes, ViewPropTypes, // APIs
-AccessibilityInfo, Alert, Animated, AppRegistry, AppState, BackHandler, Clipboard, DeviceInfo, Dimensions, Easing, I18nManager, InteractionManager, Keyboard, LayoutAnimation, Linking, NativeEventEmitter, PanResponder, PixelRatio, Platform, Share, StyleSheet, UIManager, Vibration, // components
+AccessibilityInfo, Alert, Animated, AppRegistry, AppState, AsyncStorage, BackHandler, Clipboard, DeviceInfo, Dimensions, Easing, I18nManager, InteractionManager, Keyboard, LayoutAnimation, Linking, NativeEventEmitter, PanResponder, PixelRatio, Platform, Share, StyleSheet, UIManager, Vibration, // components
 ActivityIndicator, Button, CheckBox, FlatList, Image, ImageBackground, KeyboardAvoidingView, Modal, Picker, ProgressBar, RefreshControl, SafeAreaView, ScrollView, SectionList, StatusBar, Switch, Text, TextInput, Touchable, TouchableHighlight, TouchableNativeFeedback, TouchableOpacity, TouchableWithoutFeedback, View, VirtualizedList, YellowBox, // propTypes
 ColorPropType, EdgeInsetsPropType, PointPropType, // compat (components)
 DrawerLayoutAndroid, InputAccessoryView, TabBarIOS, ToastAndroid, // compat (apis)
