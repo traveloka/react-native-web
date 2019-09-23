@@ -163,6 +163,7 @@ React Native v0.55
 | Animated                 | ✓      | Missing `useNativeDriver` support. |
 | AppRegistry              | ✓      | Includes additional support for server rendering with `getApplication`. |
 | AppState                 | ✓      |  |
+| AsyncStorage             | ✓      |  |
 | BackHandler              | (✓)    | Mock. No equivalent web APIs. |
 | Clipboard                | ✓      |  |
 | ColorPropType            | ✓      |  |
