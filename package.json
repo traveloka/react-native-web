@@ -2,8 +2,8 @@
   "private": true,
   "version": "0.11.7",
   "name": "react-native-web-monorepo",
-  "module": "packages/react-native-web/dist/index.js",
-  "main": "packages/react-native-web/dist/cjs/index.js",
+  "module": "dist/index.js",
+  "main": "dist/cjs/index.js",
   "scripts": {
     "clean": "del-cli ./packages/*/dist",
     "compile": "npm-run-all clean -p \"compile:* -- {@}\" --",
