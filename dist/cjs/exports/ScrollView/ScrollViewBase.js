@@ -96,9 +96,6 @@ function (_Component) {
           if (handler) {
             handler(e);
           }
-        } else {
-          // To disable scrolling in all browsers except Chrome
-          e.preventDefault();
         }
       };
     };
@@ -241,6 +238,8 @@ ScrollViewBase.propTypes = process.env.NODE_ENV !== "production" ? _objectSpread
 
 var styles = _StyleSheet.default.create({
   scrollDisabled: {
+    overflowX: 'hidden',
+    overflowY: 'hidden',
     touchAction: 'none'
   },
   hideScrollbar: {
